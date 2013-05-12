@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'EEV';
+  src: url('visitor1.ttf');
+}
+body {
+font-family: 'EEV';
+background-color:black;
+color:white;
+-webkit-user-select: none;
+} 
+#popup {
+position: fixed;
+bottom: -40px;
+right: 20px;
+-webkit-transition:all 1.0s ease-in-out;
+transition:all 1.0s ease-in-out;
+background-color: rgba(0,0,0,0.8);
+padding:5px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border: 1px solid #ADADAD;
+cursor: default;
+}
+
+#menu {
+position: fixed;
+bottom: -2px;
+left: 20px;
+-webkit-transition:all 1.0s ease-in-out;
+transition:all 1.0s ease-in-out;
+-webkit-transition:background-color 1.0s fade;
+transition:background-color 1.0s fade;
+background-color: rgba(0,0,0,0.8);
+padding:5px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border: 1px solid #ADADAD;
+background-image: url('arrows.svg');
+background-repeat:no-repeat;
+background-position:center center;
+cursor: pointer;
+}
+#menu:hover {
+background-color: rgba(0,0,0,0.95);
+}
+
+#flash {
+margin:auto;
+width:850px;
+height:500px;
+}

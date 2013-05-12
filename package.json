@@ -1,0 +1,16 @@
+{
+  "name": "ee",
+  "main": "index.html",
+  "window": {
+    "icon": "icon.ico",
+    "toolbar": false,
+    "title": "Everybody Edits",
+    "width": 875,
+    "height": 525,
+    "min_width": 875,
+    "min_height": 525
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
