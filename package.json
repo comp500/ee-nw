@@ -3,7 +3,7 @@
   "main": "index.html",
   "window": {
     "icon": "icon.ico",
-    "toolbar": true,
+    "toolbar": false,
     "title": "Everybody Edits",
     "width": 875,
     "height": 525,
